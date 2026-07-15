@@ -1,0 +1,16 @@
+export const settings = {
+  whatsappNumber: "212620937909",
+  phone: "+212 620 937 909",
+  email: "contact@mazinievents.ma",
+  address: "Tanger, Morocco",
+  instagramUrl: "https://instagram.com/mazini_events",
+  facebookUrl: null as string | null,
+  tiktokUrl: null as string | null,
+  heroTitle: "Where Love Meets Luxury",
+  heroSubtitle: "Premium event decoration for weddings, celebrations & unforgettable moments across Morocco",
+  aboutDescription: "Where romance meets craftsmanship. Luxury event decoration studio transforming spaces into cinematic experiences.",
+  happyClients: 500,
+  eventsCompleted: 1200,
+  yearsOfExperience: 5,
+  totalCollections: 8,
+};
