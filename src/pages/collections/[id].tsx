@@ -31,7 +31,7 @@ export default function CollectionDetail({ id }: { id: string }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-4xl mb-4 block opacity-90">{collection.icon}</span>
+            
             <h1 className="text-4xl md:text-6xl font-serif text-white mb-4">{collection.name}</h1>
             <p className="text-white/80 max-w-2xl mx-auto text-lg font-light">{collection.description}</p>
           </motion.div>

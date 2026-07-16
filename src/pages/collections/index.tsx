@@ -29,7 +29,7 @@ export default function Collections() {
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
 
             <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
-              <span className="text-primary text-3xl mb-4 opacity-80">{collection.icon}</span>
+              
               <h3 className="text-2xl font-serif mb-2">{collection.name}</h3>
               <p className="text-white/80 text-sm mb-6 line-clamp-2">{collection.description}</p>
               <div className="flex items-center justify-between">

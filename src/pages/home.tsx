@@ -24,7 +24,7 @@ export default function Home() {
       <section className="relative h-[100dvh] min-h-[600px] w-full flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("/images/hero.png")' }}
+          style={{ backgroundImage: 'url("/MaziniEvents/images/opengraph.png")' }}
         />
         <div className="absolute inset-0 z-10 bg-black/40" />
 
@@ -95,7 +95,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {featuredCollections.map((collection, i) => (
+          {featuredCollections.slice(0, 3).map((collection, i) => (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -111,7 +111,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
 
               <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
-                <span className="text-primary text-3xl mb-4 opacity-80">{collection.icon}</span>
+               
                 <h3 className="text-2xl font-serif mb-2">{collection.name}</h3>
                 <p className="text-white/80 text-sm mb-6 line-clamp-2">{collection.description}</p>
                 <div className="flex items-center justify-between">
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredPackages.map((pkg, i) => (
+            {featuredPackages.slice(0, 3).map((pkg, i) => (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

@@ -25,7 +25,7 @@ export default function Gallery() {
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-serif mb-6 text-foreground">Gallery</h1>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          A glimpse into the magical moments we've created. Every setup is a unique love story.
+          A glimpse into the magical moments we've created. Every setup is a unique love story by our photography "nh.photography.n".
         </p>
       </div>
 
