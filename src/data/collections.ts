@@ -14,7 +14,7 @@ export const collections: Collection[] = [
     name: "Wedding Collection",
     type: "wedding",
     description: "Turn your dream wedding into a breathtaking reality with our signature luxury setups floral arches, candlelit tables, and bespoke welcome signs.",
-    coverImage: "/MaziniEvents/images/weedingcol.png",
+    coverImage: "/images/weedingcol.png",
     featured: true,
     designCount: 3,
   },
