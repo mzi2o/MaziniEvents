@@ -24,7 +24,7 @@ export default function Home() {
       <section className="relative h-[100dvh] min-h-[600px] w-full flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("/MaziniEvents/images/opengraph.png")' }}
+          style={{ backgroundImage: 'url("/images/opengraph.png")' }}
         />
         <div className="absolute inset-0 z-10 bg-black/40" />
 
