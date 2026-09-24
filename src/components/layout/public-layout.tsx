@@ -131,11 +131,13 @@ export function PublicLayout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div className="md:col-span-1">
-              <Link href="/" className="flex items-center gap-2 mb-6">
-                <span className="font-serif text-2xl tracking-wider uppercase text-foreground">
-                  Mazini <span className="font-light text-primary">Events</span>
-                </span>
-              </Link>
+              <Link href="/" className="flex items-center z-50">
+              <img
+                src="/images/mazini-events-logo-transparent.png"
+                alt="Mazini Events"
+                className="h-14 w-auto object-contain"
+              />
+            </Link>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                 {settings.aboutDescription}
               </p>
