@@ -41,13 +41,13 @@ export function PublicLayout({ children }: { children: React.ReactNode }) {
         )}
       >
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 group z-50">
-            <span className={cn("font-serif text-2xl tracking-wider uppercase transition-colors",
-              isScrolled || location !== "/" || mobileMenuOpen ? "text-foreground" : "text-white"
-            )}>
-              Mazini <span className="font-light text-primary">Events</span>
-            </span>
-          </Link>
+          <Link href="/" className="flex items-center z-50">
+              <img
+                src="/images/mazini-events-logo-transparent.png"
+                alt="Mazini Events"
+                className="h-14 w-auto object-contain"
+              />
+            </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
